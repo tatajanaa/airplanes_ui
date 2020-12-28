@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const kBaseUrl = "https://unitedairlinesassociation.azurewebsites.net/";
+const kBaseUrl = "https://planeapi.azurewebsites.net/";
 
 function filterResults(payload, origin, datatype) {
     return payload.filter(f => f.origin === origin).map(e => e[datatype])

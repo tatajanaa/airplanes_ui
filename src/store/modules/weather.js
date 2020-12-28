@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const kBaseUrl = "https://unitedairlinesassociation.azurewebsites.net/";
+const kBaseUrl = "https://planeapi.azurewebsites.net/";
 
 const state = {
     weatherRecords: [],
